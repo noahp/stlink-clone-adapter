@@ -39,12 +39,20 @@ From the pin 1 marker on the header on the ST-Link, pinout is as follows:
 |3.3V|7|8|3.3V|
 |5.0V|9|10|5.0V|
 
-Pinout appears correct on these devices.
+Labeling appears to be correct on these devices.
 
 ## PCB Renders
 
-![top](https://raw.githubusercontent.com/noahp/2x5toCortexAdapt/master/pcb_render_top.png)..
-![bottom](https://raw.githubusercontent.com/noahp/2x5toCortexAdapt/master/pcb_render_bottom.png)
+![top](variant-1/pcb_render_top.png)..
+![bottom](variant-1/pcb_render_bottom.png)
+
+### Varian-1 3d render
+
+![variant-1-3d](variant-1/2x5toCortexAdapt.png)
+
+### Variant-2 3d highlight
+
+![3d](variant-2/2x5toCortexAdapt-bottom.png)
 
 ## Parts
 
