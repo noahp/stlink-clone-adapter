@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>3D Test</title>
+    <style>
+        model-viewer {
+            width: 300px;
+            height: 400px;
+            background-color: #70BCD1;
+            --poster-color: #ffffff00;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Import the component -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <!-- <model-viewer src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb"></model-viewer> -->
+    <model-viewer src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.glb?1542147958948"
+        alt="A 3D model of an astronaut" shadow-intensity="1" camera-controls="" auto-rotate="" ar=""
+        data-js-focus-visible="" ar-status="not-presenting">
+    </model-viewer>
+
+</body>
+
+</html>
