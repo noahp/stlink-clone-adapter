@@ -19,7 +19,7 @@ U 1 1 5643BF5B
 P 5500 2400
 F 0 "J5" H 5500 1400 60  0000 C CNN
 F 1 "ARM_10PIN" H 5500 3050 60  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 5500 2400 60  0001 C CNN
+F 2 "kicadlib:ARM_10_PIN" H 5500 2400 60  0001 C CNN
 F 3 "" H 5500 2400 60  0000 C CNN
 	1    5500 2400
 	-1   0    0    -1  
@@ -102,7 +102,7 @@ U 1 1 5643C704
 P 3000 1850
 F 0 "J3" H 3000 1350 60  0000 C CNN
 F 1 "2X5_HDR" H 3000 2250 60  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal" H 2900 1600 60  0001 C CNN
+F 2 "project-lib:IDC-Header_2x05_P2.54mm_Horizontal" H 2900 1600 60  0001 C CNN
 F 3 "" H 2900 1600 60  0000 C CNN
 	1    3000 1850
 	1    0    0    -1  
@@ -137,7 +137,7 @@ U 1 1 5FDC1C99
 P 2350 3250
 F 0 "J2" H 2100 3600 50  0000 L CNN
 F 1 "Conn_01x04" H 2100 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2350 3250 50  0001 C CNN
+F 2 "project-lib:PinHeader_1x04_P2.54mm_Vertical" H 2350 3250 50  0001 C CNN
 F 3 "~" H 2350 3250 50  0001 C CNN
 	1    2350 3250
 	1    0    0    -1  
@@ -148,7 +148,7 @@ U 1 1 5FDC755F
 P 1550 3250
 F 0 "J1" H 1300 3600 50  0000 L CNN
 F 1 "Conn_01x04" H 1300 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1550 3250 50  0001 C CNN
+F 2 "project-lib:PinHeader_1x04_P2.54mm_Vertical" H 1550 3250 50  0001 C CNN
 F 3 "~" H 1550 3250 50  0001 C CNN
 	1    1550 3250
 	1    0    0    -1  
@@ -159,7 +159,7 @@ U 1 1 5FDC78F0
 P 3350 3250
 F 0 "J4" H 3100 3600 50  0000 L CNN
 F 1 "Conn_01x04" H 3100 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3350 3250 50  0001 C CNN
+F 2 "project-lib:PinHeader_1x04_P2.54mm_Vertical" H 3350 3250 50  0001 C CNN
 F 3 "~" H 3350 3250 50  0001 C CNN
 	1    3350 3250
 	1    0    0    -1  
