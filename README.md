@@ -8,6 +8,11 @@ when connecting ST-Link v2 clones to a standard ARM 2x5 1.27mm pitch header.
 I know of 2 variants of the ST-Link v2, with different pinouts on the 2x5 0.1"
 (2.54mm) header. Different adapter boards provided for each variant.
 
+One way to distinguish the variants; when unplugged, check for continuity on pins 3+4 or 5+6.
+
+- pins 3+4 shorted, **variant-1**
+- pins 5+6 shorted, **variant-1**
+
 ### Variant 1
 
 Older model I bought in ~2016.
@@ -43,14 +48,18 @@ Labeling appears to be correct on these devices.
 
 ## PCB Renders
 
-![top](variant-1/pcb_render_top.png)..
+### Variant-1
+
+![top](variant-1/pcb_render_top.png)
 ![bottom](variant-1/pcb_render_bottom.png)
 
-### Varian-1 3d render
+![3d-top](variant-1/2x5toCortexAdapt_top.png)
+![3d-bottom](variant-1/2x5toCortexAdapt_bottom.png)
 
-![variant-1-3d](variant-1/2x5toCortexAdapt.png)
+### Variant-2
 
-### Variant-2 3d highlight
+![top](variant-2/pcb_render_top.png)
+![bottom](variant-2/pcb_render_bottom.png)
 
 ![3d](variant-2/2x5toCortexAdapt-bottom.png)
 
