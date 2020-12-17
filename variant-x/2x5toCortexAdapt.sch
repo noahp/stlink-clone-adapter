@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2x5toCortexAdapt-rescue:ARM_10PIN-kicadlib J2
+L 2x5toCortexAdapt-rescue:ARM_10PIN-kicadlib-2x5toCortexAdapt-rescue J5
 U 1 1 5643BF5B
 P 5500 2400
-F 0 "J2" H 5500 1400 60  0000 C CNN
+F 0 "J5" H 5500 1400 60  0000 C CNN
 F 1 "ARM_10PIN" H 5500 3050 60  0000 C CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 5500 2400 60  0001 C CNN
 F 3 "" H 5500 2400 60  0000 C CNN
@@ -27,15 +27,15 @@ $EndComp
 Text Label 2450 1600 2    60   ~ 0
 RST
 Text Label 3550 1750 0    60   ~ 0
-SWDIO
+GND|SWDIO
 Text Label 3550 1900 0    60   ~ 0
-GND
+SWCLK|GND
 Text Label 2450 1900 2    60   ~ 0
-GND
+SWIM|GND
 Text Label 2450 1750 2    60   ~ 0
-SWIM
+GND|SWIM
 Text Label 3550 1600 0    60   ~ 0
-SWCLK
+SWDIO|SWCLK
 Text Label 3550 2050 0    60   ~ 0
 3.3V
 Text Label 2450 2050 2    60   ~ 0
@@ -97,10 +97,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 3250 4850 3250
 $Comp
-L 2x5toCortexAdapt-rescue:2X5_HDR-kicadlib J1
+L 2x5toCortexAdapt-rescue:2X5_HDR-kicadlib-2x5toCortexAdapt-rescue J3
 U 1 1 5643C704
 P 3000 1850
-F 0 "J1" H 3000 1350 60  0000 C CNN
+F 0 "J3" H 3000 1350 60  0000 C CNN
 F 1 "2X5_HDR" H 3000 2250 60  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal" H 2900 1600 60  0001 C CNN
 F 3 "" H 2900 1600 60  0000 C CNN
@@ -111,4 +111,77 @@ Wire Wire Line
 	4950 3100 5050 3100
 Wire Wire Line
 	4950 2500 4950 3100
+Text Label 2150 3150 2    60   ~ 0
+SWDIO
+Text Label 2150 3350 2    60   ~ 0
+SWIM
+Text Label 2150 3250 2    60   ~ 0
+GND
+Text Label 2150 3450 2    60   ~ 0
+SWCLK
+Text Label 1350 3150 2    60   ~ 0
+SWDIO|SWCLK
+Text Label 1350 3250 2    60   ~ 0
+GND|SWIM
+Text Label 1350 3350 2    60   ~ 0
+SWIM|GND
+Text Label 1350 3450 2    60   ~ 0
+SWCLK|GND
+Text Notes 1200 3650 0    50   ~ 0
+VARIANT-1
+Text Notes 3150 3650 0    50   ~ 0
+VARIANT-2
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5FDC1C99
+P 2350 3250
+F 0 "J2" H 2100 3600 50  0000 L CNN
+F 1 "Conn_01x04" H 2100 3500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2350 3250 50  0001 C CNN
+F 3 "~" H 2350 3250 50  0001 C CNN
+	1    2350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5FDC755F
+P 1550 3250
+F 0 "J1" H 1300 3600 50  0000 L CNN
+F 1 "Conn_01x04" H 1300 3500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1550 3250 50  0001 C CNN
+F 3 "~" H 1550 3250 50  0001 C CNN
+	1    1550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J4
+U 1 1 5FDC78F0
+P 3350 3250
+F 0 "J4" H 3100 3600 50  0000 L CNN
+F 1 "Conn_01x04" H 3100 3500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3350 3250 50  0001 C CNN
+F 3 "~" H 3350 3250 50  0001 C CNN
+	1    3350 3250
+	1    0    0    -1  
+$EndComp
+Text Label 3150 3250 2    60   ~ 0
+SWIM|GND
+Text Label 3150 3450 2    60   ~ 0
+SWDIO|SWCLK
+Text Label 3150 3350 2    60   ~ 0
+GND|SWIM
+Text Label 3150 3150 2    60   ~ 0
+GND|SWDIO
+Wire Notes Line
+	650  2750 650  3750
+Wire Notes Line
+	650  3750 3800 3750
+Wire Notes Line
+	3800 3750 3800 2750
+Wire Notes Line
+	3800 2750 650  2750
+Text Notes 1900 3900 0    50   ~ 0
+Variant selection header
+Text Notes 2150 3650 0    50   ~ 0
+Common
 $EndSCHEMATC

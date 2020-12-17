@@ -21,14 +21,15 @@ From the pin 1 marker on the header on the ST-Link, pinout is as follows:
 
 |Funtion|Pin|Pin|Function|
 |---|---|---|---|
-|RST (mislabeled on silkscreen)|1|2|SWDIO|
-|GND (mislabeled on silkscreen)|3|4|GND|
+|RST*|1|2|SWDIO|
+|GND*|3|4|GND|
 |SWIM|5|6|SWCLK|
 |3.3V|7|8|3.3V|
 |5.0V|9|10|5.0V|
 
-Note that the labeling is incorrect for some pins on the etching on the case and
-on the silkscreen on the board.
+**Note that the labeling is incorrect for some pins on the etching on the case /
+on the silkscreen on the board. My device had the pinout for **Variant-2** on
+the etching and just incorrect on the silkscreen markings 🤷.*
 
 ### Variant 2
 
@@ -45,6 +46,10 @@ From the pin 1 marker on the header on the ST-Link, pinout is as follows:
 |5.0V|9|10|5.0V|
 
 Labeling appears to be correct on these devices.
+
+### Variant X
+
+Support both pinouts with a 3x4 0.1" header to select between them.
 
 ## PCB Renders
 
