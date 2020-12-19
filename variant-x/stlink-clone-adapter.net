@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/noah/dev/github/stlink-clone-adapter/variant-x/stlink-clone-adapter.sch)
-    (date "Sat 19 Dec 2020 07:52:14 AM EST")
+    (date "Sat 19 Dec 2020 11:00:14 AM EST")
     (tool "Eeschema 5.1.8-db9833491~88~ubuntu20.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5643BF5B))
     (comp (ref J3)
       (value 2X5_HDR)
-      (footprint project-lib:IDC-Header_2x05_P2.54mm_Horizontal)
+      (footprint Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal)
       (libsource (lib stlink-clone-adapter-rescue) (part 2X5_HDR-kicadlib-stlink-clone-adapter-rescue) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5643C704))

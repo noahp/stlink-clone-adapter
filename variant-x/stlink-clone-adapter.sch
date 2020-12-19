@@ -102,7 +102,7 @@ U 1 1 5643C704
 P 4800 2750
 F 0 "J3" H 4800 2250 60  0000 C CNN
 F 1 "2X5_HDR" H 4800 3150 60  0000 C CNN
-F 2 "project-lib:IDC-Header_2x05_P2.54mm_Horizontal" H 4700 2500 60  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal" H 4700 2500 60  0001 C CNN
 F 3 "" H 4700 2500 60  0000 C CNN
 	1    4800 2750
 	1    0    0    -1  
