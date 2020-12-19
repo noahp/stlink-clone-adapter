@@ -51,6 +51,8 @@ Labeling appears to be correct on these devices.
 
 Support both pinouts with a 3x4 0.1" header to select between them.
 
+![top](variant-x/pcb_render_top.png)
+
 ## PCB Renders
 
 ### Variant-1
