@@ -1,4 +1,4 @@
-# 2x5toCortexAdapt
+# stlink-clone-adapter
 
 2x5 0.1" (2.54mm) header to arm cortex 10-pin header adapter. This is useful
 when connecting ST-Link v2 clones to a standard ARM 2x5 1.27mm pitch header.
@@ -58,15 +58,15 @@ Support both pinouts with a 3x4 0.1" header to select between them.
 ![top](variant-1/pcb_render_top.png)
 ![bottom](variant-1/pcb_render_bottom.png)
 
-![3d-top](variant-1/2x5toCortexAdapt_top.png)
-![3d-bottom](variant-1/2x5toCortexAdapt_bottom.png)
+![3d-top](variant-1/stlink-clone-adapter_top.png)
+![3d-bottom](variant-1/stlink-clone-adapter_bottom.png)
 
 ### Variant-2
 
 ![top](variant-2/pcb_render_top.png)
 ![bottom](variant-2/pcb_render_bottom.png)
 
-![3d](variant-2/2x5toCortexAdapt-bottom.png)
+![3d](variant-2/stlink-clone-adapter-bottom.png)
 
 ## Parts
 
