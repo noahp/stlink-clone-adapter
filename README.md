@@ -5,13 +5,13 @@ when connecting ST-Link v2 clones to a standard ARM 2x5 1.27mm pitch header.
 
 ## Variants
 
-I know of 2 variants of the ST-Link v2, with different pinouts on the 2x5 0.1"
+I know of 2 variants of the ST-Link v2 clones, with different pinouts on the 2x5 0.1"
 (2.54mm) header. Different adapter boards provided for each variant.
 
 One way to distinguish the variants; when unplugged, check for continuity on pins 3+4 or 5+6.
 
 - pins 3+4 shorted, **variant-1**
-- pins 5+6 shorted, **variant-1**
+- pins 5+6 shorted, **variant-2**
 
 ### Variant 1
 
