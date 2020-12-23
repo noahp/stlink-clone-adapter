@@ -1,3 +1,6 @@
+[![GitHub Workflow
+Status](https://img.shields.io/github/workflow/status/noahp/stlink-clone-adapter/main-ci?style=for-the-badge)](https://github.com/noahp/stlink-clone-adapter/actions)
+
 # stlink-clone-adapter
 
 2x5 0.1" (2.54mm) header to arm cortex 10-pin header adapter. This is useful
