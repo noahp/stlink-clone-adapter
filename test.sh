@@ -21,7 +21,7 @@ DOCKER_BUILDKIT=1 docker build -t "$DOCKER_IMAGE_NAME" --build-arg "UID=$(id -u)
 # when we do this (pkg cache operations are not atomic!)
 docker run --rm -v "$(pwd)":/mnt/workspace -t "$DOCKER_IMAGE_NAME" bash -c "
     cd variant-x &&
-    kiplot -d kiplot-output -s run_drc run_erc print_sch interactive_bom print_front print_bottom"
+    kiplot -d kiplot-output print_sch interactive_bom print_front print_bottom"
 
 # TODO bom generation doesn't work :/
 # kiplot -s bom_html bom_csv
