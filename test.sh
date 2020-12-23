@@ -19,7 +19,7 @@ DOCKER_BUILDKIT=1 docker build -t "$DOCKER_IMAGE_NAME" --build-arg "UID=$(id -u)
 
 # execute tox in the docker container. don't run in parallel; conda has issues
 # when we do this (pkg cache operations are not atomic!)
-docker run -v "$(pwd)":/mnt/workspace -t "$DOCKER_IMAGE_NAME" bash -c "
+docker run --rm -v "$(pwd)":/mnt/workspace -t "$DOCKER_IMAGE_NAME" bash -c "
     cd variant-x &&
     kiplot -d kiplot-output -s run_drc run_erc print_sch interactive_bom print_front print_bottom"
 
