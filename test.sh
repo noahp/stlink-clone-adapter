@@ -17,8 +17,8 @@ DOCKER_IMAGE_NAME=${DOCKER_IMAGE_NAME:-$(basename -s .git "$(git remote --verbos
 # build the docker image
 DOCKER_BUILDKIT=1 docker build -t "$DOCKER_IMAGE_NAME" --build-arg "UID=$(id -u)" -f Dockerfile .
 
-# execute tox in the docker container. don't run in parallel; conda has issues
-# when we do this (pkg cache operations are not atomic!)
+# run the test commands
+# for now only on the variant-x version
 docker run --rm -v "$(pwd)":/mnt/workspace -t "$DOCKER_IMAGE_NAME" bash -c "
     cd variant-x &&
     kiplot -d kiplot-output print_sch interactive_bom print_front print_bottom"
