@@ -20,3 +20,8 @@ jobs:
       # build the Docker image we use to run the tests
       - name: test.sh
         run: ./test.sh
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: kiplot-output
+          path: variant-x/kiplot-output
