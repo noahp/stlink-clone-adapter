@@ -55,6 +55,7 @@ Labeling appears to be correct on these devices.
 Support both pinouts with a 3x4 0.1" header to select between them.
 
 ![top](variant-x/pcb_render_top.png)
+![bottom](variant-x/pcb_render_bottom.png)
 
 ## PCB Renders
 
@@ -77,3 +78,5 @@ Support both pinouts with a 3x4 0.1" header to select between them.
 
 - [2x5 header](http://www.digikey.com/product-search/en?keywords=SFH11-PBPC-D05-RA-BK)
 - [arm 10 pin](http://www.digikey.com/product-detail/en/3220-10-0100-00/1175-1627-ND/3883661)
+- [2x4 shunt/jumper](https://www.digikey.com/en/products/detail/amphenol-icc-fci/69145-208LF/1523748) [alternate](https://www.digikey.com/en/products/detail/samtec-inc/MNT-104-BK-G/6613574)
+
